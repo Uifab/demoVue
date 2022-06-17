@@ -1,0 +1,29 @@
+[
+    {
+        "id": "fbd05860-6d4e-43f7-8588-2af55aa020ad",
+        "number": "2812",
+        "currency": "USD",
+        "total": 219,
+        "date": "2022-06-14",
+        "status": "Issued",
+        "paid": false
+    },
+    {
+        "id": "fbd05860-6d4e-43f7-8588-2af55aa020ae",
+        "number": "2812",
+        "currency": "USD",
+        "total": 219,
+        "date": "2022-05-14",
+        "status": "Issued",
+        "paid": true
+    },
+    {
+        "id": "fbd05860-6d4e-43f7-8588-2af55aa020af",
+        "number": "2812",
+        "currency": "USD",
+        "total": 219,
+        "date": "2022-04-14",
+        "status": "Issued",
+        "paid": true
+    }
+]

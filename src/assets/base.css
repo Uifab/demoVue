@@ -1,0 +1,102 @@
+.edit-member-submenu{
+    border-bottom: 1px solid #adb5bd;
+}
+.edit-member-submenu > li{
+    padding:5px 10px;
+    font-weight: 600;
+    color:#6c757d;
+    padding-bottom:20px;
+}
+
+.edit-member-submenu > .selected{
+    color:#0d6efd;
+    border-bottom: 1px solid #0d6efd;
+}
+
+.billing-summary-big{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height:1.25rem;
+}
+
+.edit-member-submenu > li:hover{
+    cursor:pointer;
+
+    color:#0d6efd;
+    border-bottom: 1px solid #0d6efd;
+}
+
+.billing-summary-big a:hover{
+    cursor:pointer;
+    color:#0d6efd;
+}
+
+.invoices > div {
+    border-bottom:1px solid #ccc;
+}
+.invoices small{
+    font-weight:400;
+}
+
+.payment-status-pill{
+    border-radius:5px;
+    display:inline-block;
+    padding:5px 10px;
+
+    font-size: .75rem;
+    line-height: .75rem;
+
+    color:#fff;
+}
+
+.menu{
+    max-width:50px;
+    height:100vh;
+    background:#212529;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+.menu .nav-link{
+    width:100%;
+    font-size:20px;
+    color:#fff;
+    padding: 10px 12px;
+}
+
+.menu .nav-link:hover{
+    background:#0d6efd;
+}
+
+.user-profile{
+    position:fixed;
+    bottom:50px;
+    width:50px!important;
+}
+#edit-member-page{
+    padding-left:75px;
+}
+@media (max-width: 768px){
+    #edit-member-page{
+        padding-left:unset;
+    }
+    .payment-status-pill{
+        padding:2px 5px;
+    }
+    .menu .nav-link:hover{
+        background:#0d6efd;
+    }
+    .menu-mobile{
+        width:100vh;
+        max-width:unset;
+        height:50px;
+    }
+    .menu-mobile .nav-link{
+        width:50px;
+    }
+    .menu-mobile .user-profile{
+        top:0px;
+        right:0px;
+        height:50px;
+    }
+}
