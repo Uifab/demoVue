@@ -13,7 +13,8 @@
     "jest": "^28.1.1",
     "miragejs": "^0.1.45",
     "msw": "^0.42.1",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

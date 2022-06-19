@@ -1,3 +1,7 @@
+:root {
+    --main-color: #0d6efd;
+    --almost-black:#212529;
+}
 .edit-member-submenu{
     border-bottom: 1px solid #adb5bd;
 }
@@ -9,8 +13,8 @@
 }
 
 .edit-member-submenu > .selected{
-    color:#0d6efd;
-    border-bottom: 1px solid #0d6efd;
+    color:var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 .billing-summary-big{
@@ -22,20 +26,20 @@
 .edit-member-submenu > li:hover{
     cursor:pointer;
 
-    color:#0d6efd;
-    border-bottom: 1px solid #0d6efd;
+    color:var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 .billing-summary-big a:hover{
     cursor:pointer;
-    color:#0d6efd;
+    color:var(--main-color);
 }
 
 .invoices > div {
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #adb5bd;
 }
 .invoices > div:hover{
-    border-color:#0d6efd;
+    border-color:var(--main-color);
 }
 .invoices small{
     font-weight:400;
@@ -55,7 +59,7 @@
 .menu{
     max-width:50px;
     height:100vh;
-    background:#212529;
+    background:var(--almost-black);
     position:fixed;
     left:0px;
     top:0px;
@@ -68,7 +72,7 @@
 }
 
 .menu .nav-link:hover{
-    background:#0d6efd;
+    background:var(--main-color);
 }
 
 .user-profile{
@@ -87,7 +91,7 @@
         padding:2px 5px;
     }
     .menu .nav-link:hover{
-        background:#0d6efd;
+        background:var(--main-color);
     }
     .menu-mobile{
         width:100vh;
